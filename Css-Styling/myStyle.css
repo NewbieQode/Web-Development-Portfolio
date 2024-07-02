@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(100, 9, 9);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+h1 {
+    background-color: black;
+    border: 15px;
+    margin-left: 415px;
+    margin-right: 415px;
+    border-radius: 10px;
+    display: block;
+    
+}
+h2 {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-size: 25px;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    text-align: justify;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+ul {
+    text-align: left;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    block-size: auto;
+}
+.wrapper {
+    background-color: white;
+    width: 750px;
+    border: 30px solid white;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+aside {
+    margin-top: -17%;
+    margin-left: 65%;
+    font-style: italic;
+    font-size: 30px;
+    text-align: justify;
+}
+#MV {
+    color: white;
+}
+h2{ 
+    width: 805px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+    display: block;
+}
+.navbar {
+    text-align: center;
+    background-color: black;
+    margin: -1%;
+    border: 10px;
+    padding: 8px;
+
+}
+a {
+    color: white;
+    margin: -9px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

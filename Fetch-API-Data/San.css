@@ -1,0 +1,27 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  font-size: large;
+  color: aliceblue;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+h1 {
+  margin: 0 auto;
+  font-size: 2.2em;
+  text-align: center;
+  color: aliceblue;
+  font-size: 8em;
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: left;
+  justify-items: baseline;
+  color: aliceblue;
+  font-size: 3em;
+}

@@ -1,0 +1,107 @@
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 200%;
+}
+body {
+    background-color: rgb(240, 248, 252);
+}
+/* 1st breakpoint that changes the background colour when the max width is met from blue to pink */
+/* laptop screen width size 1280px */
+@media only screen and (max-width: 1000px)  {
+    body {
+        background-color: pink;
+    }
+}
+.grid-container {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    place-items: center center; 
+    background-color: bisque;
+    padding: 3vh;
+    line-height: 1;
+    word-spacing: 15px;
+}
+/* hidden element used to create periodic table structure */
+.hidden-elements {
+    background-color: plum;
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    visibility: hidden;
+    }
+.Noble-gases {
+    background-color: rgb(247, 170, 128);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }      
+.Alkali-metals {
+    background-color: rgb(235, 132, 147);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }
+.Earth-metals {
+    background-color: rgb(185, 163, 238);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }
+.Metalloid {
+    background-color: rgb(175, 210, 148);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+}
+.Non-metals {
+    background-color: rgb(250, 245, 151);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }
+.Post-trans-metal {
+    background-color: rgb(180, 255, 191);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }
+.trans-metal {
+    background-color: rgb(178, 211, 252);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }
+.Lanthanides {
+    background-color: rgb(172, 250, 249);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }
+.Actinides {
+    background-color: rgb(199, 234, 234);
+    border: 1px solid black;
+    padding: 3vh;
+    font-size: 3.25vh;
+    }
+
+img {
+    display: none;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+
+/* 2nd breakpoint displays an image of periodic table when the max width is met. */
+@media only screen and (max-width: 1000px) {
+    .grid-container {
+        display: none;
+    }
+    
+    img {
+        display: block;
+    }
+}
+/* the pixel size is set to my personal screen size please adjust accordingly to see styling changes to webpage!! */
