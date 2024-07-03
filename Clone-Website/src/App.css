@@ -1,0 +1,301 @@
+h3.header {
+  display: inline-block;
+  position: absolute;
+  top: -7px;
+  left: 175px;
+  font-size: smaller;
+  color: rgb(95, 93, 93);
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img.nav_logo {
+  position: absolute;
+  top: -30px;
+  left: 45px;
+  margin: 1px;
+  object-fit: contain;
+  height: 110px;
+  width: 140px;
+}
+img.avatar_logo {
+  position: absolute;
+  display: inline-block;
+  top: 5px;
+  right: 97px;
+  margin: 10px;
+  object-fit: contain;
+  height: 28px;
+  width: 28px;
+}
+input {
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  margin-left: 30%;
+  margin-right: 50%;
+  width: 500px;
+  height: 35px;
+  border-radius: 20px;
+  border: 2px solid grey;
+}
+p.nav {
+  top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  position: fixed;
+  margin-left: 31.5%;
+  margin-right: 50%;
+}
+p.login {
+  top: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: absolute;
+  display: inline-block;
+  right: 37px;
+  text-align: right;
+}
+p.side {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+  left: 4px;
+  font-size: 13px;
+}
+p.footer {
+  font-size: smaller;
+  margin-top: 36.5%;
+  margin-bottom: 50%;
+  position: fixed;
+  display: inline-block;
+}
+h4.t1 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 100px;
+  background-color: rgba(2, 2, 2, 0.836);
+  color: white;
+}
+h4.t2 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 150px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t3 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 230px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t4 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 310px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t5 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 440px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t6 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 520px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t7 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 600px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t8 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 680px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t9 {
+  top: 45px;
+  position: absolute;
+  text-align: center;
+  font-weight: 500;
+  float: initial;
+  left: 760px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t10 {
+  top: 45px;
+  position: absolute;
+  font-weight: 500;
+  text-align: center;
+  float: initial;
+  left: 820px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t11 {
+  top: 45px;
+  position: absolute;
+  font-weight: 500;
+  text-align: center;
+  float: initial;
+  left: 900px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t12 {
+  top: 45px;
+  position: absolute;
+  font-weight: 500;
+  text-align: center;
+  float: initial;
+  left: 980px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+h4.t13 {
+  top: 45px;
+  position: absolute;
+  font-weight: 500;
+  text-align: center;
+  float: initial;
+  left: 1060px;
+  background-color: rgba(215, 213, 213, 0.623);
+}
+
+.card {
+  border: 1px solid rgba(254, 254, 254, 0.833);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  margin: 5px;
+  margin-top: 3.5%;
+  text-align: center;
+  line-height: 10px;
+  height: 230px;
+  max-width: 350px;
+  float: right;
+  display: inline-block;
+}
+.card .card-img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.card .card-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: black;
+  width: 360px;
+  text-align: center;
+  margin: 5px;
+}
+.card .card-name {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  width: 350px;
+  top: 350px;
+  left: 250px;
+  text-align: center;
+  margin: 0;
+}
+.card .card-info {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  width: 350px;
+  top: 350px;
+  left: 100px;
+  text-align: center;
+  margin: 5px;
+}
+p.time {
+  top: 45px;
+  font-size: smaller;
+  position: absolute;
+  text-align: center;
+  float: initial;
+  top: 293px;
+  left: 778px;
+  color: white;
+  background-color: rgba(42, 41, 41, 0.721);
+}
+p.time1 {
+  top: 45px;
+  font-size: smaller;
+  position: absolute;
+  text-align: center;
+  float: initial;
+  top: 293px;
+  left: 388px;
+  color: white;
+  background-color: rgba(42, 41, 41, 0.721);
+}
+p.time2 {
+  top: 45px;
+  font-size: smaller;
+  position: absolute;
+  text-align: center;
+  float: initial;
+  top: 293px;
+  left: 1178px;
+  color: white;
+  background-color: rgba(42, 41, 41, 0.721);
+}
+p.time3 {
+  top: 45px;
+  font-size: smaller;
+  position: absolute;
+  text-align: center;
+  float: initial;
+  top: 616px;
+  left: 793px;
+  color: white;
+  background-color: rgba(42, 41, 41, 0.721);
+}
+p.time4 {
+  top: 45px;
+  font-size: smaller;
+  position: absolute;
+  text-align: center;
+  float: initial;
+  top: 616px;
+  left: 388px;
+  color: white;
+  background-color: rgba(42, 41, 41, 0.721);
+}
+p.time5 {
+  top: 45px;
+  font-size: smaller;
+  position: absolute;
+  text-align: center;
+  float: initial;
+  top: 616px;
+  left: 1178px;
+  color: white;
+  background-color: rgba(42, 41, 41, 0.721);
+}
