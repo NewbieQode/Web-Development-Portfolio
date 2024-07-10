@@ -3,10 +3,18 @@
 
 * <b>Fundamentals of Web Development</b>
   * [Simple Webpage design](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Css-Styling)
+  * [Responsive webpage](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Responsive-webpage)
+  * [Control Structures](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/For-While-Loops)
+  * [Object Oriented Programming](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Object-Oriented-Programming)
+
+ 
 * <b>Web App</b>
   * [Multipage Web Application](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Online-Store)
-* <b>Front-end Server</b>
+  * [Nationality Predictor](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Express-App)
+  * [Weather App](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Weather-App)
+* <b>Front-end and Back-end Server</b>
   * [Front-end interface](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Budget-Website)
+  * [Back-end server](https://github.com/NewbieQode/Web-Development-Portfolio/tree/main/Express-App)
  
 
 <a herf="https://www.linkedin.com/in/tamika-trimblett-51646a214/">
